@@ -1,0 +1,28 @@
+.slider {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+  height: 100vh;
+}
+
+.slider-item01 {
+  background: url(../images/main-bg.jpeg);
+}
+
+.slider-item02 {
+  background-image: url(../images/main-bg2.jpeg);
+}
+
+.slider-item03 {
+  background-image: url(../images/main-bg3.jpeg);
+}
+
+.slider-item {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/*# sourceMappingURL=slider.css.map */

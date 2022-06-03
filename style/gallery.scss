@@ -1,0 +1,50 @@
+
+
+img{
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.gallery{
+	margin:0 0 30px 0;
+}
+
+.slick-prev, 
+.slick-next {
+    position: absolute;
+	z-index: 3;
+    top: 42%;
+    cursor: pointer;
+    outline: none;
+    border-top: 2px solid rgb(18, 6, 63);
+    border-right: 2px solid rgb(18, 6, 63);
+    height: 25px;
+    width: 25px;
+}
+
+.slick-prev {
+    left:   2%;
+    transform: rotate(-135deg);
+}
+
+.slick-next {
+    right:  -2.5%;
+    transform: rotate(45deg);
+}
+
+.choice-btn li{
+	cursor: pointer;
+	outline: none;
+	background:#333;
+	width: 30%!important;
+    list-style:none;
+}
+
+.choice-btn li img{
+	opacity: 0.4;
+}
+
+.choice-btn li.slick-current img{
+	opacity: 1;
+}
